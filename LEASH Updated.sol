@@ -689,7 +689,7 @@ contract LeashCoin is Context, IBEP20, Ownable {
 
     mapping (address => bool) private _isExcludedFromFee;
 
-    mapping (address => bool) private _isExscluded;
+    mapping (address => bool) private _isExcluded;
     address[] private _excluded;
     address public _Burn = address(0xdead);
    
